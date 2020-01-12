@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-// List thread safe list base on list.List
+// List is thread safe list base on list.List
 type List struct {
 	ll *list.List
 	sync.Mutex
